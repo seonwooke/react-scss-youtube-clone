@@ -3,7 +3,7 @@ import React from 'react'
 import { MdVideoCall as VideoIcon } from 'react-icons/md'
 import { MdApps as Apps } from 'react-icons/md'
 import { MdNotifications as Notification } from 'react-icons/md'
-import ReactTooltip from 'react-tooltip';
+// import ReactTooltip from 'react-tooltip';
 
 const RightNav = () => {
 
@@ -21,13 +21,13 @@ const RightNav = () => {
                 <Notification size={25} data-tip='Notifications' data-for='navbar' />
             </button>
 
-            <ReactTooltip
+            {/* <ReactTooltip
                 id='navbar'
                 backgroundColor='grey'
                 effect='solid'
                 delayHide={150}
                 arrowColor='transparent'
-            />
+            /> */}
         </div>
     )
 }

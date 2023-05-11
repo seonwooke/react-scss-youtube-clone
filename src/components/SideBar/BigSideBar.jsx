@@ -1,5 +1,5 @@
 import React from 'react'
-import ReactTooltip from 'react-tooltip'
+// import ReactTooltip from 'react-tooltip'
 import { MdVideoLibrary } from 'react-icons/md'
 import { Link } from 'react-router-dom'
 import { AiFillHome } from 'react-icons/ai'
@@ -82,7 +82,7 @@ const BigSideBar = () => {
             </div>
           </Link>
         </div>
-        <ReactTooltip
+        {/* <ReactTooltip
           effect='solid'
           id='sidebar'
           place='bottom'
@@ -91,7 +91,7 @@ const BigSideBar = () => {
           arrowColor='transparent'
           offset={{ top: 0, left: 0 }}
           className='tooltip'
-        />
+        /> */}
       </div>
     </aside>
   )
